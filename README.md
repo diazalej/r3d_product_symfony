@@ -7,7 +7,12 @@
 ## Before starting
 
 ### Project configuration
-Before start running the project. Go to `app/config/parameters.yml` and change parameters for `database` and `mailer` to use the desired credentials:
+
+Copy `parameters.yml.dist` example to `parameters.yml` and change change parameters for `database` and `mailer` to use the desired credentials:
+
+``` bash
+$ cp app/config/parameters.yml.dist app/config/parameters.yml
+```
 
 For the database setup: 
 
